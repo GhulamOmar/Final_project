@@ -162,7 +162,7 @@ def add_employee():
                         """ for loop allows user to add 100 employees"""
                         id_number = +1
                     emp_dct[
-                        new_employee.get_ID_number()] = 'name:' + new_employee.get_first_name() + '' + new_employee.get_last_name() + '   ' + 'Departament:' + new_employee.get_department() + '  ' + 'Job:' + new_employee.get_job_title() + '  ' + 'Salary:' + new_employee.get_salary() + '  ' + 'Date hired:' + new_employee.get_date()
+                        new_employee.get_ID_number()] = 'name:' + new_employee.get_first_name() + '' + new_employee.get_last_name() + '   ' + 'Departament:' + new_employee.get_department() + '  ' + 'Job:' + new_employee.get_job_title() + '  ' + 'Salary: $' + new_employee.get_salary() + '  ' + 'Date hired:' + new_employee.get_date()
                     print('Employee added to file')
             else:
                 if int(choice) == 3:
